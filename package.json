@@ -1,0 +1,28 @@
+{
+  "name": "@awesomeorganization/hyperlink",
+  "description": "[ESM] The hyperlink constuctor according to rfc1738, rfc3986 and whatwg. Works with Browser and Node.js",
+  "version": "0.1.0",
+  "main": "main.js",
+  "type": "module",
+  "repository": "github:awesomeorganization/hyperlink",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": {
+    "name": "sergeysedoy97"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "latest"
+  },
+  "keywords": [
+    "href",
+    "hyperlink",
+    "link",
+    "rfc1738",
+    "rfc3986",
+    "uri",
+    "url",
+    "whatwg"
+  ]
+}
