@@ -1,6 +1,6 @@
 # hyperlink
 
-:boom: [ESM] The hyperlink constuctor according to rfc1738, rfc3986 and whatwg. Works with Browser and Node.js
+:boom: [ESM] The hyperlink constuctor according to rfc1738, rfc1808, rfc2396, rfc3986 and whatwg. Works with Browser and Node.js
 
 ---
 

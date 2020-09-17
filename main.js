@@ -1,8 +1,11 @@
 // REFERENCES
 // https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements
 // https://tools.ietf.org/html/rfc1738
+// https://tools.ietf.org/html/rfc1808
+// https://tools.ietf.org/html/rfc2396
 // https://tools.ietf.org/html/rfc3986
-
+//
+// SCHEMA
 // ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
 // │                                              href                                              │
 // ├──────────┬──┬─────────────────────┬────────────────────────┬───────────────────────────┬───────┤
@@ -23,7 +26,6 @@
 
 export const hyperlink = ({ auth, hash, host, hostname, origin, password, path, pathname, port, protocol, query, search, username }) => {
   let href = ''
-
   if (origin !== undefined) {
     ;[protocol, host] = origin.split('//')
   }
@@ -74,6 +76,5 @@ export const hyperlink = ({ auth, hash, host, hostname, origin, password, path, 
       href += hash
     }
   }
-
   return href
 }
