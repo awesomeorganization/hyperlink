@@ -1,4 +1,4 @@
-import { hyperlink } from './main.js'
+import { hyperlink } from '../main.js'
 import { strictEqual } from 'assert'
 
 strictEqual(hyperlink({}), '')
