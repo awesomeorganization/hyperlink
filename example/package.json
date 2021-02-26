@@ -11,7 +11,7 @@
     "start": "node example.js"
   },
   "dependencies": {
-    "@awesomeorganization/hyperlink": "latest",
-    "undici": "latest"
+    "@awesomeorganization/hyperlink": "0.1.5",
+    "undici": "3.3.3"
   }
 }

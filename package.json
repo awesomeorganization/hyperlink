@@ -1,7 +1,7 @@
 {
   "name": "@awesomeorganization/hyperlink",
   "description": "[ESM] The hyperlink constuctor according to rfc1738, rfc1808, rfc2396, rfc3986 and whatwg. Works with Browser and Node.js",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "exports": "./main.js",
   "type": "module",
   "repository": "github:awesomeorganization/hyperlink",
@@ -10,12 +10,12 @@
     "name": "sergeysedoy97"
   },
   "devDependencies": {
-    "eslint-config-prettier": "latest",
-    "eslint-plugin-node": "latest"
+    "eslint-config-prettier": "8.1.0",
+    "eslint-plugin-node": "11.1.0"
   },
   "peerDependencies": {
-    "eslint": "latest",
-    "prettier": "latest"
+    "eslint": "7.20.0",
+    "prettier": "2.2.1"
   },
   "peerDependenciesMeta": {
     "eslint": {

@@ -1,7 +1,7 @@
 import { hyperlink } from '@awesomeorganization/hyperlink'
 import undici from 'undici'
 
-const main = async () => {
+const example = async () => {
   // Origin
   const origin = hyperlink({
     hostname: 'api.ipify.org',
@@ -26,13 +26,15 @@ const main = async () => {
     method: 'GET',
     path,
   })
-  const chunks = []
+  let chunks = ''
+  body.setEncoding('utf8')
   body.on('data', (chunk) => {
-    chunks.push(chunk)
+    chunks += chunk
   })
-  body.on('end', () => {
-    console.log(JSON.parse(Buffer.concat(chunks).toString('utf-8')))
+  body.once('end', () => {
+    console.log(JSON.parse(chunks))
+    client.close()
   })
 }
 
-main()
+example()
