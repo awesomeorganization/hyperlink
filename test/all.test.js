@@ -1,3 +1,5 @@
+/* eslint-disable node/no-unsupported-features/es-syntax */
+
 import { hyperlink } from '../main.js'
 import { strictEqual } from 'assert'
 

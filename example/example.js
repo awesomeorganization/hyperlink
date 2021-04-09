@@ -1,3 +1,5 @@
+/* eslint-disable node/no-unsupported-features/es-syntax */
+
 import { hyperlink } from '@awesomeorganization/hyperlink'
 import undici from 'undici'
 
