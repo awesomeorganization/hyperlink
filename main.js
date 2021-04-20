@@ -1,3 +1,5 @@
+/* eslint-disable node/no-unsupported-features/es-syntax */
+
 // REFERENCES
 // https://html.spec.whatwg.org/multipage/links.html#api-for-a-and-area-elements
 // https://tools.ietf.org/html/rfc1738

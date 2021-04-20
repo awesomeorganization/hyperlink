@@ -33,9 +33,9 @@ const example = async () => {
   body.on('data', (chunk) => {
     chunks += chunk
   })
-  body.once('end', () => {
+  body.once('end', async () => {
     console.log(JSON.parse(chunks))
-    client.close()
+    await client.close()
   })
 }
 

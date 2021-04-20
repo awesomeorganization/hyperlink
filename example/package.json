@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "dependencies": {
-    "@awesomeorganization/hyperlink": "0.1.6",
+    "@awesomeorganization/hyperlink": "..",
     "undici": "3.3.3"
   }
 }
