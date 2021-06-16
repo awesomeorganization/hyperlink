@@ -5,6 +5,6 @@
   "type": "module",
   "dependencies": {
     "@awesomeorganization/hyperlink": "..",
-    "undici": "3.3.6"
+    "undici": "4.0.0"
   }
 }
